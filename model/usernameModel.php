@@ -2,7 +2,7 @@
 
 class usernameModel{
     private $PDO;
-    public function __contruct(){
+    public function __construct(){
         require_once("c://xampp/htdocs/Proyect Db/config/db.php");
         $con= new db();
         $this-> PDO = $con->conexion();
